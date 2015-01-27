@@ -1,0 +1,236 @@
+<html>
+<head>
+	<title>User profile</title>
+	<meta charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/profile.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
+	<link href="path/to/bootstrap-editable/css/bootstrap-editable.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/register-form.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
+	<link href="css/bootstrapValidator.css" rel="stylesheet" />
+	<link href="css/datepicker.css" rel="stylesheet">
+	</head>
+<body>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxx NAVBAR TOP FIXED xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<div class="navbar-header">
+		          	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			        </button>
+			        <a class="navbar-brand" href="#">HR MODULE</a>
+      		  	</div>
+			</div> <!-- end navbar-header-->
+			<div id="navbar" class="navbar-collapse collapse">
+	         	<ul class="nav navbar-nav navbar-right">
+		            <li class="active"><a href="profile.html">My profile<span class="sr-only">(current)</span></a></li>
+		            <li><a href="#">Settings</a></li>
+		            <li><a href="#">Log out</a></li>
+	          	</ul>
+        	</div><!--/.nav-collapse -->
+		</div> <!-- end div Container -->
+	</nav> <!-- end NAV navbar fixed top -->
+
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx MENU BAR xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+	<div class="row">
+		<div class="container">
+			<div class="navbar navbar-inverse" role="navigation" id="main_menu_row">
+	        <div class="container-fluid">
+	          <div class="navbar-header">
+	            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_menu">
+	              <span class="sr-only">Toggle navigation</span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	            </button>
+	          </div>
+	          <div class="navbar-collapse collapse" style="height: 1px;" id="main_menu">
+	            <ul class="nav navbar-nav navbar-right">
+	              <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Dashboard</a></li>
+	              <li><a href="#">Activities</a></li>
+	              <li><a href="">Employees</a></li>
+	              <li><a href="#">Settings</a></li>
+	            </ul>
+	          </div><!--/.nav-collapse -->
+	        </div><!--/.container-fluid -->
+	      </div>
+
+		</div> <!-- end div container -->
+	</div> <!-- end row  div -->
+
+<div class="container">
+	<div class="container">
+		<div class="row">
+			<div class="form-horizontal">
+			
+					
+				
+					
+					
+		<!----------------------------------------------------------PUBLIC PROFILE---------------------------------------------------------------------------->
+		
+						<div role="tabpanel" class="tab-pane active" id="myProfile">
+							<h4 class="header bolder blue">Personal info</h4>
+								<div class="row" >
+									<div  class="col-xs-12 col-sm-4  col-sm-offset-1">
+										<div class="ratio img-circle" style="background-image:url('images/user.png')" >
+									     </div>
+												
+											<div class="space-2"></div>
+										 
+												<div class="col-sm-5 col-sm-offset-1">
+													<input class=" form-control input-medium" type="text" id="FirstName" placeholder="First Name"  readonly>
+												</div>
+												<div class="col-sm-5">
+														<input class="form-control input-medium" type="text" id="LastName" placeholder="Last Name" readonly>
+												</div><!--end col-->					  
+									</div>
+
+									
+									<div class="col-xs-12 col-sm-6 col-sm-offset-1">
+						
+										<div class="space-3"></div>
+											
+											<div class="form-group ">
+												<label class="col-sm-3 control-label ">Username</label>
+													<div class="col-sm-8">
+														<input class ="form-control input-medium " class="col-xs-12 col-sm-10" type="text" id="username" placeholder="Username" readonly>
+													</div><!-- end col-->
+											</div><!--end form-group-->
+											
+											<div class="space-4"></div>
+											
+											<div class="form-group ">
+												<label class="col-sm-3 control-label ">Phone number</label>
+													<div class="col-sm-8">
+														<input class="form-control input-medium"  class="col-xs-12 col-sm-10" type="text" id="PhoneNumber" placeholder="Phone number" readonly>
+													</div><!-- end col-->
+											</div><!--end form-group-->
+
+											<div class="space-4"></div>
+											
+											<div class="form-group ">
+												<label class="col-sm-3 control-label ">Email</label>
+													<div class="col-sm-8">
+														<input class="form-control input-medium" class="col-xs-12 col-sm-10" type="text" id="email" placeholder="Email" readonly>
+													</div><!-- end col-->
+											</div><!--end form-group-->
+											
+									</div><!--end col-->
+								</div><!--end row-->
+								
+								<div class="space-2"></div>
+							
+							<h4 class="header bolder blue">Other information</h4>
+								<div class="space-2"></div>
+									<div class="row">
+										<div class="col-xs-12 col-sm-6">
+										
+											<div class="form-group ">
+												<label class="col-sm-3  control-label ">Birth date</label>
+													<div class="col-sm-8">
+														<input class="form-control input-medium" class="col-xs-12 col-sm-12" type="text" id="BirthDate" placeholder="Birth date" readonly>
+													</div><!-- end col-->
+											</div><!--end form-group-->
+											
+											<div class="space-2"></div>
+											
+											<div class="form-group ">
+												<label class="col-sm-3  control-label ">JMBG</label>
+													<div class="col-sm-8">
+														<input class="form-control input-medium" class="col-xs-12 col-sm-12" type="text" id="BirthDate" placeholder="JMBG" readonly>
+													</div><!-- end col-->
+											</div><!--end form-group-->
+												
+											<div class="space-2"></div>
+									
+							
+											<div class="form-group ">
+												<label class="col-sm-3 control-label ">College</label>
+													<div class="col-sm-8">
+														<input class="form-control input-medium" class="col-xs-12 col-sm-12" type="text" id="college" placeholder="College" readonly>
+													</div><!-- end col-->
+											</div><!--end form-group-->
+											
+										</div><!--end col-->
+							
+							
+										<div class="col-xs-12 col-sm-6">
+											<div class="form-group ">
+												<label class="col-sm-3 control-label ">Address</label>
+													<div class="col-sm-8">
+														<input  class="form-control input-medium" class="col-xs-12 col-sm-12" type="text" id="address" placeholder="Address" readonly>
+													</div><!-- end col-->
+											</div><!--end form-group-->
+											
+											<div class="space-2"></div>
+							
+											<div class="form-group ">
+												<label class="col-sm-3 control-label ">City</label>
+													<div class="col-sm-8">
+														<input class="form-control input-medium" class="col-xs-12 col-sm-12" type="text" id="city" placeholder="City" readonly>
+													</div><!-- end col-->
+											</div><!--end form-group-->
+											
+											<div class="space-2"></div>
+							
+											<div class="form-group ">
+												<label class="col-sm-3 control-label ">State</label>
+													<div class="col-sm-8">
+														<input class="form-control input-medium" class="col-xs-12 col-sm-12" type="text" id="state" placeholder="State" readonly>
+													</div><!-- end col-->
+											</div><!--end form-group-->
+										</div><!--end col-->
+
+									</div><!--end row-->
+									
+									<div class="space-2"></div>
+
+							<div class="footer"></div>
+						</div><!-- end div basic-info-->
+
+		<!----------------------------------------------------------END PUBLIC PROFILE---------------------------------------------------------------------------->
+						
+		
+						
+						
+						
+			
+			</div><!--end cform-->
+		</div><!--end row-->
+	</div><!--end container-->
+</div><!--end container-->
+	
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.backstretch.min.js" ></script>
+<script type="text/javascript" src="js/profile.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script src="path/to/bootstrap-editable/js/bootstrap-editable.min.js"></script>
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.backstretch.min.js" ></script>
+<script type="text/javascript" src="js/bootstrapValidator.js"></script>
+<script type="text/javascript" src="js/bootbox.js"></script>
+<script type="text/javascript" src="js/register-form.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+
+<script>
+$('#date_of_birth').datepicker({
+	format: 'mm/dd/yyyy'
+});
+
+</script>
+
+
+</body>
+</html>

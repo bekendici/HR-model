@@ -1,0 +1,71 @@
+h4
+{
+font-family: 'Oxygen', sans-serif;
+  
+}
+
+.header
+{
+line-height: 28px;
+margin-bottom: 16px;
+margin-top: 18px;
+padding-bottom: 4px;
+border-bottom: 1px solid #CCC;
+}
+.bolder {
+font-weight: bolder;
+}
+.blue {
+color: #478fca!important;
+}
+
+.label-profile
+{
+display: block;
+font-size: inherit;
+position: relative;
+height: 300px;
+
+}
+.label-height
+{
+height: auto;
+}
+.profile-container .label-height
+{
+position: relative;
+height: auto;
+border: 1px dashed;
+background-color:red;
+
+text-align: center;
+}
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 0px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  10px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.input-label{
+	/*font-family: 'Lato', sans-serif;*/
+	font-weight: 900;
+	font-size: 16pt;
+	text-align:right;
+	font-weight: bolder;
+	
+	
+}

@@ -1,0 +1,101 @@
+
+body {
+  padding: 40px 0px;
+  background-color: #eee;
+}
+
+/* HIDING CONTAINER UTNIL IT'S CLICKED ON */
+/*
+.container {
+  display: none;
+}
+*/
+/* FORM HEADING */
+
+h1.vacation-form-heading{
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 400;
+}
+
+ /* LINE UNDER THE FORM HEADING */
+
+.vacation-hr{
+	margin: 10px 0px 15px 0px;
+}
+
+ /* BOX AROUND THE WHOLE FORM */
+
+#vacation-wrapper{
+	padding:15px 70px 15px 70px;
+	background-color: #fff;
+	border: 1px solid #C0C5C5;
+	border-radius: 15px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+/* STYLING FOR SELECT */
+
+#chooseMonth{
+	margin: 10px 0px 30px 0px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 13pt;
+	text-align: center;
+}
+
+/* CALENDAR STYLING */
+.main {
+width:250px;
+}
+
+.month {
+background-color:#999999;
+border: 1px solid #C0C5C5;
+height: 50px;
+font-size:16pt;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+color:white;
+}
+
+.daysofweek {
+background-color:#CCCCCC;
+border: 1px solid #C0C5C5;
+height: 30px;
+font:bold 16px;
+font-family: Lato:300;
+color:white;
+}
+
+.days {
+font-size: 16px;
+font-family: Lato:300;
+color:black;
+background-color: lightyellow;
+border: 1px solid #C0C5C5;
+padding: 2px;
+}
+
+.days #today{
+font-weight: bold;
+color: red;
+}
+
+/* END OF CALENDAR STYLING */
+
+/* BUTTON */
+
+#ok-btn{
+	margin-top: 20px;
+}
+
+/* DOWNSIZING BUTTONS AND PADDING OF REGISTER-WRAPPER
+FOR SCREENS UNDER 400px WIDTH*/
+
+@media(max-width: 500px){
+	#vacation-wrapper{
+	padding:5px 30px 5px 30px;
+	}
+}

@@ -1,0 +1,271 @@
+h4,h3
+{
+font-family: 'Oxygen', sans-serif;
+  
+}
+.textFont
+{
+color:#222;
+
+//text-shadow:0px 2px 3px #555;
+}
+.blue {
+color: #478fca!important;
+}
+.button_color
+{
+ background-color: #1c8989;
+ color:#fff;
+ font-family: 'Lato', sans-serif;
+ font-weight: '300'; 
+ margin:15px;
+}
+.font
+{
+
+font-style:bold;
+text-align:center;
+}
+
+.div1
+{
+margin-top:100px;
+}
+.datepicker{
+ z-index:2000;
+}
+.bootstrap-timepicker-widget.dropdown-menu.open table input[type="text"]
+{
+
+width:50px;
+padding-right:0;
+}
+.height
+{
+height:50px;
+}
+
+.span8
+{
+background-color:#A3CAD2;
+border: 1px solid #888;
+border-radius:3px;
+margin:50px;
+}
+.formActivities
+{
+padding:10px;
+
+}
+input[readonly].default-cursor {
+    cursor: default;
+}
+textarea[readonly].default-cursor {
+    cursor: default;
+}
+select[readonly].default-cursor {
+    cursor: default;
+}
+
+/*
+  Stranica aktivnosti
+*/
+#sa_strane{
+  padding:0 5px;
+  background-color: #62bbbb; /* 
+  -webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+*/
+margin: 25px 0;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: '300'; 
+
+}
+
+
+.aktivnost_blok{
+  float:left;
+  margin:3px 10px;
+  //padding:10px;
+
+  margin-bottom: 10px;
+  width:260px;
+  background-color: #fff;
+     -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    border:1px solid #999999;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: '300'; 
+  }
+
+.aktivnost_blok:hover{
+-moz-transform: scale(1) translateX(2px) translateY(2px);
+-webkit-transform: scale(1) translateX(2px) translateY(2px);
+-o-transform: scale(1) translateX(2px) translateY(2px);
+-ms-transform: scale(1) translateX(2px) translateY(2px);
+transform: scale(1) translateX(2px) translateY(2px);
+}
+
+.naslovna_bar{
+padding: 10px 0;
+  background-color: #62bbbb;
+  overflow: hidden;
+  color:#fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: '300'; 
+
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+.tijelo_bloka{
+  padding: 10px;
+}
+
+.naslov{
+text-align: center;
+//text-decoration: underline;
+ //font-weight: bold;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: '300'; 
+//background-color: #207f9e;
+/*text-shadow:0px 2px 3px #555;*/
+
+}
+
+.katg{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 12px;
+  //margin-bottom: 15px;
+  margin-left: 5px;
+  color: #207f9e;
+  padding-left:5px;
+ font-family: 'Lato', sans-serif;
+  font-weight: '300'; 
+}
+
+.datumi{
+  font-style: italic;
+  float:right;
+  margin-top: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: '300'; 
+}
+
+
+.tekst{
+  
+   display: block;
+    display: -webkit-box;
+    max-width: 400px;
+    height: 63.2px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.4;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    background-color: #eee;
+    padding: 5px 10px 5px;
+/*
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+*/
+}
+
+
+
+/*
+ uredjenje laznih  dugmadi (input checkbox ustvari) 
+*/
+#mjeseci label input {
+   //margin-right:100px;
+   display: none;
+
+  
+}
+
+.months{
+  font-family: 'Lato', sans-serif;
+  font-weight: '300'; 
+}
+
+
+#mjeseci {
+   // margin:4px;
+    //background-color:#EFEFEF;
+    border-radius:4px;
+  //  border:1px solid #D0D0D0;
+    overflow:auto;
+   // float:left;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: '300'; 
+
+}
+
+#mjeseci label {
+
+   // float:left;
+    width:13.0em;
+    padding:5px;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: '300'; 
+}
+
+#mjeseci label span {
+    text-align:center;
+    padding:8px 20px;
+    display:block;
+    //border:1px solid blue;
+  font-size:17px;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border:1px solid #095B7E;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: '300'; 
+
+  
+}
+
+#mjeseci label input {
+
+  font-family: 'Lato', sans-serif;
+  font-weight: '300'; 
+    position:absolute;
+  //  top:-20px;
+}
+
+#mjeseci label span:hover {
+
+
+  font-family: 'Lato', sans-serif;
+  font-weight: '300'; 
+    background-color: #1c8989;
+}
+
+#mjeseci input:checked + span {
+
+  font-family: 'Lato', sans-serif;
+  font-weight: '300'; 
+    background-color:#135e5e;
+    color:#fff;
+  
+}

@@ -1,0 +1,158 @@
+
+body {
+  padding: 40px 0px;
+  background-color: #eee;
+}
+
+/* HIDING STEP2-CONTAINER AND STEP3-CONTAINER DURING STEP1 */
+
+#step2-container, #step3-container {
+  display: none;
+}
+
+/* FORM HEADING */
+
+h1.register-form-heading{
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 400;
+}
+
+.blue{
+	color: #003399;
+	/*color:#2B90D3;*/
+}
+
+/* STEPS STYLING */
+
+h5.step-header{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: 	#737373;
+	letter-spacing: 3px;
+	margin-top: 0px;
+}
+
+ /* LINE UNDER THE FORM HEADING */
+
+.register-hr{
+	margin: 10px 0px 15px 0px;
+}
+
+ /* BOX AROUND THE WHOLE FORM */
+
+#register-wrapper{
+	padding:15px 70px 15px 70px;
+	background-color: #fff;
+	border: 1px solid #C0C5C5;
+	border-radius: 15px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+/* STYLING OF ALL INPUT LABELS */
+
+.input-label{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16pt;
+}
+
+/*.checkbox-label{
+	margin-top: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16pt;
+}*/
+/*select#select-placeholder{
+	text-align: center !important;
+	font-family: 'Lato', sans-serif !important;
+	font-weight: 300 !important;
+	font-size: 12pt !important;
+}*/
+
+/* STYLING OF TEXT INSIDE ALL INPUTS */
+
+#registration-form input[type=text], #registration-form input[type=password]{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 14pt;
+}
+
+/* BUTTONS */
+
+#next1, #next2, #previous1, #previous2, #login-button, #register-button{
+	margin-top: 20px;
+}
+
+/* ------ CHECKBOX STYLING ------ */
+
+input[type=checkbox].css-checkbox {
+	position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+	margin-top: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16pt;
+	color: #5B6262;
+
+	padding-left:30px;
+	height:25px; 
+	display:inline-block;
+	line-height:25px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox:hover + label.css-label:hover{
+	color: #000;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+	background-position: 0 -25px;
+	color: #000;
+}
+
+label.css-label {
+	/*background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_843386d3cb9a4d1c05313c7f23788d43.png);*/
+	background-image:url(../images/register-checkbox.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+/* ------ END OF CHECKBOX STYLING ------ */
+
+/* VALIDATION GLYPHICON STYLING */
+
+.form-control-feedback.glyphicon.glyphicon-remove, .form-control-feedback.glyphicon.glyphicon-ok{
+	margin-top: 10px;
+}
+
+/* DOWNSIZING BUTTONS AND PADDING OF REGISTER-WRAPPER
+FOR SCREENS UNDER 400px WIDTH*/
+
+@media(max-width: 500px){
+	#next1, #next2, #previous1, #previous2, #login-button, #register-button{
+		padding-left: 0px;
+		padding-right: 0px;
+		font-size: 10pt;
+	}
+	#previous2, #register-button{
+		margin-top: 60px;
+	}
+	#register-wrapper{
+	padding:5px 30px 5px 30px;
+	}
+}
+
+.bootbox.modal.fade.bootbox-alert.in {
+	padding-top: 75px;
+	}
